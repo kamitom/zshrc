@@ -23,6 +23,7 @@ zinit light-mode for \
 #
 #
 alias ll='ls -alF'
+alias py='python3'
 
 # zsh BIG 4
 zinit light zsh-users/zsh-completions
