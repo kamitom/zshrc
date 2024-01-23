@@ -28,8 +28,7 @@ alias py='python3'
 # zsh BIG 4
 zinit light zsh-users/zsh-completions
 zinit light zsh-users/zsh-autosuggestions
-zinit light zsh-users/zsh-history-substring-search
-zinit light zdharma-continuum/fast-syntax-highlighting
+zinit light zsh-users/zsh-history-substring-search zinit light zdharma-continuum/fast-syntax-highlighting
 
 # Oh My Zsh feature
 zinit snippet OMZ::lib/completion.zsh
@@ -48,6 +47,6 @@ zinit load djui/alias-tips
 PS1='[%n@%m:%c]#'
 
 # Real-time clock
-alias tt="watch -pct -n 1 \"date '+%Y.%m.%d %H:%M:%S'| toilet --filter border -w 150 -f mono9\""
-alias tt_metal="watch -pct -n 1 \"date '+%Y.%m.%d %H:%M:%S'| toilet --filter border:metal -w 150 -f mono9\""
-alias tt_small="watch -pct -n 1 \"date '+%Y/%m/%d %H:%M:%S'| toilet --filter border -w 135 -f wideterm\""
+# alias tt="watch -pct -n 1 \"date '+%Y.%m.%d %H:%M:%S'| toilet --filter border -w 150 -f mono9\""
+# alias tt_metal="watch -pct -n 1 \"date '+%Y.%m.%d %H:%M:%S'| toilet --filter border:metal -w 150 -f mono9\""
+# alias tt_small="watch -pct -n 1 \"date '+%Y/%m/%d %H:%M:%S'| toilet --filter border -w 135 -f wideterm\""
